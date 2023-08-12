@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  web:
+    image: blackeyes
+    build:
+      context: .
+      dockerfile: dockerfiles/kali/kali.Dockerfile
+    environment:
+      BLACKEYE_PAGE: "netsuite"
+      HOST_NAME: "localhost"
+      PORT: 3333
+      PORT_TUNNELS: 4040
+      NGROK_TOKEN: xxxxx
+      SMTP_TOKEN: xxxxxx
+    volumes:
+      - ./mod-blackeye:/app
+      - web-be_modules:/app/be_modules/
+    command: sh -c 'echo "Running BlackEyes ..."
+         && bash blackeye.sh
+         && echo "Start BlackEyes Good Luck ..."'
+  #be = blackeyes
+  #will check if adminer should be necesary to dbsu, although I think it should not.
+
+volumes:
+  web-be_modules:
